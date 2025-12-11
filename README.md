@@ -38,6 +38,31 @@ RPGV19.5.py  (ou le nom de votre fichier principal)assets/background.jpgforest_b
 
 Exécutez le script principal dans votre terminal :
 
-```bash
 python RPGV19.5.py
-🎮 Commandes et Raccourcis ClavierLe jeu est jouable à la fois à la souris (clics sur les boutons) et au clavier.ÉcranActionRaccourci ClavierMenu PrincipalNouvelle PartieNCharger PartieCQuitterQ ou ESCCombatAttaquer1Défendre2Utiliser Potion3FuirFSauvegarderSInventaireIMagasinMGénéralPause/Menu PrincipalESCMenu Victoire/Mort/FuiteContinuer/Retour au MenuA ou ENTERInventaire/MagasinRetour au CombatESC ou I/M💡 Remarques sur le CodeCorrection Critique : La version actuelle (V19.5) inclut la correction de l'erreur AttributeError: 'GameEngine' object has no attribute 'check_level_up'. La vérification de niveau est maintenant correctement effectuée sur l'objet Player.Modularité : Le code est organisé en classes (Character, Enemy, GameEngine, Button) pour une meilleure gestion de la logique et de l'état du jeu.UI : Les classes DamagePopup et InfoPopup gèrent l'affichage dynamique des dégâts et des messages d'information en combat.Équilibrage : Les statistiques des ennemis et l'XP nécessaire pour monter de niveau sont ajustés dynamiquement en fonction de l'étage (stage).
+
+🎮 Commandes et Raccourcis Clavier
+Le jeu est jouable à la fois à la souris (clics sur les boutons) et au clavier.
+
+Écran,Action,Raccourci Clavier
+Menu Principal,Nouvelle Partie,N
+,Charger Partie,C
+,Quitter,Q ou ESC
+Combat,Attaquer,1
+,Défendre,2
+,Utiliser Potion,3
+,Fuir,F
+,Sauvegarder,S
+,Inventaire,I
+,Magasin,M
+Général,Pause/Menu Principal,ESC
+Menu Victoire/Mort/Fuite,Continuer/Retour au Menu,A ou ENTER
+Inventaire/Magasin,Retour au Combat,ESC ou I/M
+
+💡 Remarques sur le Code
+Correction Critique : La version actuelle (V19.5) inclut la correction de l'erreur AttributeError: 'GameEngine' object has no attribute 'check_level_up'. La vérification de niveau est maintenant correctement effectuée sur l'objet Player.
+
+Modularité : Le code est organisé en classes (Character, Enemy, GameEngine, Button) pour une meilleure gestion de la logique et de l'état du jeu.
+
+UI : Les classes DamagePopup et InfoPopup gèrent l'affichage dynamique des dégâts et des messages d'information en combat.
+
+Équilibrage : Les statistiques des ennemis et l'XP nécessaire pour monter de niveau sont ajustés dynamiquement en fonction de l'étage (stage).
