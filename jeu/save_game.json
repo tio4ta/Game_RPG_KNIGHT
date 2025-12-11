@@ -1,0 +1,31 @@
+{
+    "name": "H\u00e9ros",
+    "char_class": "Tank",
+    "max_hp": 100,
+    "hp": 32,
+    "base_attack": 12,
+    "base_defense": 5,
+    "crit_chance": 0.1,
+    "xp": 35,
+    "level": 1,
+    "inventory": {
+        "potion": 0,
+        "items": [
+            {
+                "name": "Armure en Cuir",
+                "type": "armor",
+                "defense": 2
+            }
+        ]
+    },
+    "equipment": {
+        "weapon": null,
+        "armor": {
+            "name": "Armure en Cuir",
+            "type": "armor",
+            "defense": 2
+        }
+    },
+    "avatar_file": "hero2.png",
+    "stage": 3
+}
